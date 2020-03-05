@@ -6,14 +6,16 @@ using Microsoft.EntityFrameworkCore;
 using Shop.Data;
 using Shop.Models;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Shop.Controllers
 {
-    [Route("produtcs")]
+    [Route("products")]
     public class ProductController : ControllerBase
     {
         [HttpGet]
         [Route("")]
+        [AllowAnonymous]
         public async Task<ActionResult<List<Product>>> Get(
             [FromServices] DataContext context)
         {
@@ -26,6 +28,7 @@ namespace Shop.Controllers
 
         [HttpGet]
         [Route("id:int")]
+        [AllowAnonymous]
         public async Task<ActionResult<Product>> GetById(
             int id,
             [FromServices]DataContext context)
@@ -40,6 +43,7 @@ namespace Shop.Controllers
 
         [HttpGet]
         [Route("categories/{id:int}")]
+        [AllowAnonymous]
         public async Task<ActionResult<List<Product>>> GetByCategory(
             [FromServices]DataContext context, int id)
         {
@@ -51,6 +55,28 @@ namespace Shop.Controllers
                         .ToListAsync();
             return products;
 
+        }
+
+        [HttpPost]
+        [Route("")]
+        [Authorize(Roles = "employee")]
+
+        public async Task<ActionResult<Product>> Post(
+            [FromServices]DataContext context,
+            [FromBody]Product model
+        )
+        {
+
+            if (ModelState.IsValid)
+            {
+                context.Products.Add(model);
+                await context.SaveChangesAsync();
+                return model;
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
         }
 
     }

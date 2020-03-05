@@ -20,7 +20,6 @@ C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.A
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
@@ -33,3 +32,16 @@ C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.Exten
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CopyComplete
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

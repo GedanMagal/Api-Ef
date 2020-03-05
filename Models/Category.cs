@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Shop.Models
 {
@@ -6,7 +7,7 @@ namespace Shop.Models
     public class Category
     {
         [Key]
-        // [Column("cat_id")] Schema utilizado para especificar nome da coluna no banco de dados
+        [Column("cat_id")]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Este campo é obrigatório")]

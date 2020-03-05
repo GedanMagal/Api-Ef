@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shop.Data;
@@ -13,11 +14,14 @@ namespace Shop.Controllers
     //http://localhost:5000
     //https://localhost:5001
 
-    [Route("Categories")]
+    [Route("v1/categories")]
     public class CategoryController : ControllerBase
     {
         [HttpGet]
         [Route("")]
+        [AllowAnonymous]
+        [ResponseCache(VaryByHeader = "User-Agent", Location = ResponseCacheLocation.Any, Duration = 30)]
+        // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public async Task<ActionResult<List<Category>>> Get(
             [FromServices]DataContext context)
         {
@@ -27,6 +31,7 @@ namespace Shop.Controllers
 
         [HttpGet]
         [Route("{id:int}")]
+        [AllowAnonymous]
         public async Task<ActionResult<Category>> GetById(
         int id,
         [FromServices]DataContext context)
@@ -40,6 +45,7 @@ namespace Shop.Controllers
 
         [HttpPost]
         [Route("")]
+        [Authorize(Roles = "employee")]
         public async Task<ActionResult<List<Category>>> Post(
             [FromBody]Category model,
             [FromServices]DataContext context)
@@ -92,6 +98,7 @@ namespace Shop.Controllers
 
         [HttpDelete]
         [Route("{id:int}")]
+        [Authorize(Roles = "employee")]
         public async Task<ActionResult<List<Category>>> Delete(
             int id,
             [FromServices]DataContext context
