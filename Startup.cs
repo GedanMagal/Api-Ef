@@ -55,7 +55,6 @@ namespace Shop
 
             // services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
             services.AddDbContext<DataContext>(opt => opt.UseMySql(Configuration.GetConnectionString("connectionString")));
-            services.AddScoped<DataContext, DataContext>(); // Abre a conexão e fecha a conexão
 
             services.AddSwaggerGen(c =>
             {

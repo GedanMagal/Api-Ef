@@ -45,3 +45,13 @@ C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.Ident
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gedan\Desktop\Balta Cursos\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cs
